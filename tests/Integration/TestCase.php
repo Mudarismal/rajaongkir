@@ -3,8 +3,8 @@
 namespace Kavist\RajaOngkir\Tests\Integration;
 
 use Kavist\RajaOngkir\Facades\RajaOngkir;
-use Kavist\RajaOngkir\Providers\LaravelServiceProvider as RajaOngkirServiceProvider;
 use Orchestra\Testbench\TestCase as Orchestra;
+use Kavist\RajaOngkir\Providers\LaravelServiceProvider as RajaOngkirServiceProvider;
 
 abstract class TestCase extends Orchestra
 {

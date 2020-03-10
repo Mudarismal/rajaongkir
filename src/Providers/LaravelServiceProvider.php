@@ -2,11 +2,11 @@
 
 namespace Kavist\RajaOngkir\Providers;
 
-use Illuminate\Support\ServiceProvider;
-use Kavist\RajaOngkir\Exceptions\InvalidConfigurationException;
-use Kavist\RajaOngkir\HttpClients\BasicClient;
 use Kavist\RajaOngkir\RajaOngkir;
+use Illuminate\Support\ServiceProvider;
+use Kavist\RajaOngkir\HttpClients\BasicClient;
 use Kavist\RajaOngkir\SearchDrivers\BasicDriver;
+use Kavist\RajaOngkir\Exceptions\InvalidConfigurationException;
 
 class LaravelServiceProvider extends ServiceProvider
 {

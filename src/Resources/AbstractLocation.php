@@ -2,8 +2,8 @@
 
 namespace Kavist\RajaOngkir\Resources;
 
-use Kavist\RajaOngkir\Contracts\LocationResourceContract;
 use Kavist\RajaOngkir\Contracts\SearchDriverContract;
+use Kavist\RajaOngkir\Contracts\LocationResourceContract;
 
 abstract class AbstractLocation extends AbstractResource implements LocationResourceContract
 {

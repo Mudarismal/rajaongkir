@@ -2,7 +2,6 @@
 
 namespace Kavist\RajaOngkir\HttpClients;
 
-use EngineException;
 use Kavist\RajaOngkir\Exceptions\ApiResponseException;
 use Kavist\RajaOngkir\Exceptions\BasicHttpClientException;
 

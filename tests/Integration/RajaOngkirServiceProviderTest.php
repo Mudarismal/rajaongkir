@@ -2,9 +2,9 @@
 
 namespace Kavist\RajaOngkir\Tests\Integration;
 
+use Kavist\RajaOngkir\Facades\RajaOngkir;
 use Kavist\RajaOngkir\Exceptions\BasicHttpClientException;
 use Kavist\RajaOngkir\Exceptions\InvalidConfigurationException;
-use Kavist\RajaOngkir\Facades\RajaOngkir;
 
 class RajaOngkirServiceProviderTest extends TestCase
 {

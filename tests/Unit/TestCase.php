@@ -2,16 +2,16 @@
 
 namespace Kavist\RajaOngkir\Tests\Unit;
 
+use Mockery;
+use Kavist\RajaOngkir\RajaOngkir;
 use Faker\Factory as FakerFactory;
 use Faker\Generator as FakerGenerator;
+use Kavist\RajaOngkir\HttpClients\BasicClient;
+use Kavist\RajaOngkir\SearchDrivers\FuseDriver;
+use Kavist\RajaOngkir\SearchDrivers\BasicDriver;
+use PHPUnit\Framework\TestCase as PHPUnitTestCase;
 use Kavist\RajaOngkir\Contracts\HttpClientContract;
 use Kavist\RajaOngkir\Contracts\SearchDriverContract;
-use Kavist\RajaOngkir\HttpClients\BasicClient;
-use Kavist\RajaOngkir\RajaOngkir;
-use Kavist\RajaOngkir\SearchDrivers\BasicDriver;
-use Kavist\RajaOngkir\SearchDrivers\FuseDriver;
-use Mockery;
-use PHPUnit\Framework\TestCase as PHPUnitTestCase;
 
 class TestCase extends PHPUnitTestCase
 {
